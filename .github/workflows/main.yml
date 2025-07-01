@@ -11,7 +11,7 @@ jobs:
         image: postgres:13
         env:
           POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: admin
+          POSTGRES_PASSWORD: facom
           POSTGRES_DB: Projeto_1
         ports:
           - 5432:5432
