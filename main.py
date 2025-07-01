@@ -16,7 +16,7 @@ def read_root():
 
 @app.get("/quadrado/{num}")
 def square(num: int):
- return num ** 2
+ return num ** 3
 
 
 # @app.post("/criar", status_code=status.HTTP_201_CREATED)
