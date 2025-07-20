@@ -92,4 +92,4 @@ def webscraping(db: Session = Depends(get_db)):
             db.add(novo_registro)
 
     db.commit()
-    return {"Webscraping": "Dados armazenados na tabela"}
+    return {"Webscraping": "Dados"}
